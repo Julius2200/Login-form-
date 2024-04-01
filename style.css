@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/abstract-colour.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    position: relative;
+    margin-top: 40px;
+    height: 95vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(270, 270, 270, 0.5);
+    border-radius: 3vw;
+
+}
+
+header{
+    margin-top: 2vw;
+    width: 100%;
+    height: 20vw;
+    
+
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 4px 4px 4px #0808b86b;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    cursor: pointer;
+
+}
+input:active{
+    outline: none;
+}
+
+label{
+    display: block;
+    margin-left: 8vw;
+    margin-right: auto;
+    margin-top: 2vw;
+
+
+}
+
+#login{
+    float: right;
+    margin-right: 4vw;
+    color: white;
+    background-color: #0808b86b;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius :20px / 20px; 
+    border-color: #0808b86b;
+}
+
+#login:hover{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 25px/25px;
+}
+
+#box{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    
+}
+
+fieldset{
+    border-radius: 6vw;
+    height: 50vw;
+    border-color: rgba(200, 200, 200, 0.5);
+}
+
+#sign{
+    text-align: right;
+    margin-left: 32vw;
+}
+
+@media screen and (min-width:1000px) {
+    #container{
+        position:absolute;
+        top:10vw;
+        left:50vw;
+        width:45vw;
+        height: 60vw;
+        border-radius: 3vw;
+    }
+    h3{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 1.5vw;
+    }
+    fieldset{
+        height: 25vw;
+        border-radius: 3vw;
+    }
+    #box{
+        margin-top: 5vw;
+    }
+    input{
+        width: 25vw;
+    }
+    #sign{
+        margin-left: 20vw;
+    }
+    #login:hover{
+        border-radius: 40px/40px;
+    }
+}
